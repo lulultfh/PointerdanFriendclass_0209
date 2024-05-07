@@ -30,5 +30,15 @@ int main()
 {
     persegiPanjang pp;
     segitiga sg;
+    cout << "Masukkan panjang = ";
+    cin >> pp.panjang;
+    cout << "Masukkan lebar = ";
+    cin >> pp.lebar;
+    cout << "Masukkan alas = ";
+    cin >> sg.alas;
+    cout << "Masukkan tinggi = ";
+    cin >> sg.tinggi;
+    cout << "Luas Persegi Panjang = " << pp.luasPersegiPanjang(pp.panjang,pp.lebar);
+    cout << "Luas Segitiga = " <<sg.luasSegitiga(sg.alas,sg.tinggi);
 }
 
