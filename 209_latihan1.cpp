@@ -13,5 +13,5 @@ public:
 
 class segitiga 
 {
-    
+public:
 };
