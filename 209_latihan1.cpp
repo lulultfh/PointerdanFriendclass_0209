@@ -4,8 +4,8 @@ using namespace std;
 class persegiPanjang
 {
 public:
-    int panjang, lebar;
-    int luasPersegiPanjang(int b, int a)
+    float panjang, lebar;
+    float luasPersegiPanjang(float b, float a)
     {
         return a*b;
     }
@@ -14,8 +14,8 @@ public:
 class segitiga 
 {
 public:
-    int tinggi, alas;
-    int luasSegitiga(int a, int t)
+    float tinggi, alas;
+    float luasSegitiga(float a, float t)
     {
         return 0.5*a*t;
     }
